@@ -21,7 +21,7 @@
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Nama  <input type="text" name="name" id="name"/></br></br>
        Email <input type="text" name="email" id="email"/></br></br>
-	   No Hp <input type="text" name="nohp" id="nohp"/></br></br>
+	   No Hp <input type="int" name="nohp" id="nohp"/></br></br>
        Pekerjaan <input type="text" name="pekerjaan" id="pekerjaan"/></br></br>
        <input type="submit" name="submit" value="Submit" />
        <input type="submit" name="load_data" value="Load Data" />

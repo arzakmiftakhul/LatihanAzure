@@ -4,6 +4,5 @@ CREATE TABLE Pendaftaran(
    EMAIL VARCHAR (25)     NOT NULL,
    NOHP INT                NOT NULL,
    PEKERJAAN  VARCHAR(25)      NOT NULL, 
-	date DATE,
-   PRIMARY KEY (ID)
+   date DATE,
 );

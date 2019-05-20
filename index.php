@@ -27,7 +27,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "pendaftarandb.database.windows.net";
+    $host = "pendaftaranpeserta.database.windows.net";
     $user = "adminpendaftaran";
     $pass = "P4sswordpendaftaran";
     $db = "Pendaftaran";

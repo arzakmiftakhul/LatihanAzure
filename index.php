@@ -72,10 +72,10 @@
                 echo "<th>Pekerjaan</th>";
                 echo "<th>Date</th></tr>";
                 foreach($registrants as $registrant) {
-                    echo "<tr><td>".$registrant['name']."</td>";
-                    echo "<td>".$registrant['email']."</td>";
-					echo "<td>".$registrant['nohp']."</td>";
-                    echo "<td>".$registrant['pekerjaan']."</td>";
+                    echo "<tr><td>".$registrant['NAME']."</td>";
+                    echo "<td>".$registrant['EMAIL']."</td>";
+					echo "<td>".$registrant['NOHP']."</td>";
+                    echo "<td>".$registrant['PEKERJAAN']."</td>";
                     echo "<td>".$registrant['date']."</td></tr>";
                 }
                 echo "</table>";

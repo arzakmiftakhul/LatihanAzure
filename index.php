@@ -68,7 +68,8 @@
                 echo "<table>";
                 echo "<tr><th>Name</th>";
                 echo "<th>Email</th>";
-                echo "<th>Job</th>";
+		echo "<th>No Hp</th>";
+                echo "<th>Pekerjaan</th>";
                 echo "<th>Date</th></tr>";
                 foreach($registrants as $registrant) {
                     echo "<tr><td>".$registrant['name']."</td>";

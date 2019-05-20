@@ -27,7 +27,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "pendaftarandb";
+    $host = "pendaftarandb.database.windows.net";
     $user = "adminpendaftaran";
     $pass = "P4sswordpendaftaran";
     $db = "Pendaftaran";
@@ -51,7 +51,7 @@
             $stmt->bindValue(1, $name);
             $stmt->bindValue(2, $email);
             $stmt->bindValue(3, $nohp);
-			$stmt->bindValue(4, $pekerjaan);
+	    $stmt->bindValue(4, $pekerjaan);
             $stmt->bindValue(5, $date);
             $stmt->execute();
         } catch(Exception $e) {

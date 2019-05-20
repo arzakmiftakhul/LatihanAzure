@@ -30,7 +30,7 @@
     $host = "pendaftaranpeserta.database.windows.net";
     $user = "adminpendaftaran";
     $pass = "P4sswordpendaftaran";
-    $db = "Pendaftaran";
+    $db = "pendaftaranpesertadb";
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
         $conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
